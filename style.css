@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* width: 100%; */
+  margin: 2px solid lime;
+}
+
+
+.sessao {
+  border: 2px solid deeppink;
+  max-width: 200px;
+  padding: 15px;
+  align-items: flex-start;
+}
+
+.thumbnail {
+  max-width: 125px;
+  border: 1px solid lime;
+  align-items: center;
+}
